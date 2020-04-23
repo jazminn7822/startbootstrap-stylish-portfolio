@@ -1,4 +1,30 @@
-/*!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Stylish Portfolio - Start Bootstrap Template</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<style>
+ /*!
  * Start Bootstrap - Stylish Portfolio v5.0.7 (https://startbootstrap.com/template-overviews/stylish-portfolio)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
@@ -14,9 +40,9 @@ body {
   font-family: 'Source Sans Pro';
 }
 
-.btn-xl {
-  padding: 1.25rem 2.5rem;
-}
+/*.btn-xl {*/
+/*  padding: 1.25rem 2.5rem;*/
+/*}*/
 
 .content-section {
   padding-top: 7.5rem;
@@ -93,7 +119,8 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&w=1000&q=80");
+  /*../img/sunset.jpg*/
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,13 +141,7 @@ h6 {
   }
 }
 
-
-
-
-
-
-
-/* Side Menu */
+/* THE SIDE MENU */
 #sidebar-wrapper {
   position: fixed;
   z-index: 2;
@@ -303,69 +324,102 @@ footer.footer {
   padding-bottom: 5rem;
 }
 
-footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
-  transition: background-color 0.15s ease-in-out;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
 
-footer.footer .social-link:hover {
-  background-color: #155d74;
-  text-decoration: none;
-}
 
-a {
-  color: #1D809F;
-}
+</style>
 
-a:hover, a:focus, a:active {
-  color: #155d74;
-}
+<body id="page-top">
 
-.btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
-  color: #fff !important;
-}
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">ADVANCED TEMPLATE</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#services">Services</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
-}
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h2 class="mb-1">Tinkiring with an Advanced Template</h2>
+      <h3 class="mb-5">
+        <em>Sidebar and Button</em>
+      </h3>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">:)</a>
+    </div>
+    <div class="overlay"></div>
+  </header>
 
-.btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
-  color: #fff !important;
-}
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
-}
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
 
-.btn-dark {
-  color: #fff !important;
-}
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-.btn {
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  font-weight: 700;
-}
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-.bg-primary {
-  background-color: #1D809F !important;
-}
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
 
-.text-primary {
-  color: #1D809F !important;
-}
 
-.text-secondary {
-  color: #ecb807 !important;
-}
+
+
+  <!-- Portfolio -->
+ <section class="content-section" id="portfolio">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">IMAGES</h3>
+        <h2 class="mb-5">Buttons</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Beach Sunset</h2>
+                <p class="mb-0"></p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/sunset.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Hawaii</h2>
+                <p class="mb-0"></p>
+              </span>
+            </span>
+            <img class="img-fluid" src="img/Sunset-Beach-Hawaii-Oahu-North-Shore-high-definition-HD-professional-landscape-photography.jpg" alt="">
+          </a>
+        </div>
+    </div>
+  </section>
+</body>
+
+</html>
